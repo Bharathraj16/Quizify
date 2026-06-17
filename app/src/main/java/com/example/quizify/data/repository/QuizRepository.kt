@@ -17,7 +17,8 @@ import javax.inject.Singleton
 import com.example.quizify.domain.ai.GrokMessage
 import com.example.quizify.domain.ai.GrokRequest
 import com.google.gson.annotations.SerializedName
-import com.tom_roush.pdfbox.BuildConfig
+import com.example.quizify.BuildConfig
+
 
 data class QuestionDto(
     @SerializedName("question") val question: String = "",
